@@ -1,0 +1,20 @@
+*{margin: 0;padding: 0;}
+img{display: block;}
+a{text-decoration: none;}
+ul,ol{list-style: none;}
+h1,h2,h3{font-size: 16px;}
+body{font-family: Arial, Helvetica, sans-serif;}
+ 
+/* 左右浮动和清除浮动 */
+/* 左浮动 */
+.l{float: left;}
+/* 右浮动 */
+.r{float: right;}
+/* 清除浮动 */
+.clear:after{content: "";display: block;clear: both;}
+ 
+/* 设置通栏和版心 */
+/* 版心 */
+.container{width: 1414px;margin: 0 auto;position: relative;}
+/* 通栏 */
+.container-fluid{width: 100%;}
